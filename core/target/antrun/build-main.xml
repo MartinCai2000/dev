@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <exec executable="bash">
+    <arg value="C:\Users\macai\Desktop\ebay\spark-branch-2.1\spark-branch-2.1\core/../build/spark-build-info"/>
+    <arg value="C:\Users\macai\Desktop\ebay\spark-branch-2.1\spark-branch-2.1\core\target/extra-resources"/>
+    <arg value="2.1.2-SNAPSHOT"/>
+  </exec>
+</target>
+</project>
